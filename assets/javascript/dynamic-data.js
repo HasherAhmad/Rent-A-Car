@@ -13,6 +13,6 @@ document.querySelectorAll(".car-box").forEach((box) => {
 
     localStorage.setItem("selectedCar", JSON.stringify(carData));
 
-    window.location.href = "/detail.html";
+    window.location.href = "detail.html";
   });
 });
