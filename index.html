@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+    <link rel="stylesheet" href="assets/styles/responsive.css" />
+    <title>Rent A Car</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <a href="index.html"
+          ><img
+            src="assets\images\rentcarlogo-removebg-preview.png"
+            alt="logo"
+        /></a>
+      </div>
+      <nav id="nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/cars.html">Cars</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <i class="fas fa-bars menu-toggle" id="menu-toggle"></i>
+      <button
+        type="button"
+        class="get-a-quote"
+        data-bs-toggle="modal"
+        data-bs-target="#quoteModal"
+      >
+        Get a Quote
+      </button>
+    </header>
+    <!-- Home page Banner  -->
+    <section class="banner">
+      <div class="textAndImage">
+        <div class="heading-text">
+          <h1>Drive Your Dream Car Today</h1>
+          <p>
+            Choose from our wide range of cars, book online in minutes, and
+            enjoy a smooth ride anywhere you go. Affordable prices, flexible
+            plans, and 24/7 support at your service.
+          </p>
+        </div>
+        <div class="banner-image">
+          <img
+            class="img-fluid"
+            src="./assets/images/haval-Picsart-BackgroundRemover.webp"
+            alt="Car-Image"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Main -->
+    <main>
+      <div class="custom-container">
+        <!-- Trusted Section -->
+        <section class="trust-section">
+          <div class="trust-box wow animate__animated animate__bounceInDown">
+            <i class="fas fa-shield-alt"></i>
+            <h4>Trusted Service</h4>
+            <p>Thousands of happy customers rely on our service.</p>
+          </div>
+
+          <div class="trust-box wow animate__animated animate__bounceInUp">
+            <i class="fas fa-car-side"></i>
+            <h4>Wide Car Selection</h4>
+            <p>Choose from economy, luxury, and SUV models.</p>
+          </div>
+
+          <div class="trust-box wow animate__animated animate__bounceInDown">
+            <i class="fas fa-headset"></i>
+            <h4>24/7 Support</h4>
+            <p>We’re here to help anytime, anywhere.</p>
+          </div>
+
+          <div class="trust-box wow animate__animated animate__bounceInUp">
+            <i class="fas fa-credit-card"></i>
+            <h4>Easy Booking</h4>
+            <p>Fast and secure online reservation process.</p>
+          </div>
+        </section>
+
+        <!-- Swiper -->
+        <div class="choose-your-ride">
+          <div class="heading">
+            <h2>Choose Your Ride</h2>
+            <p>
+              Discover a wide range of well-maintained vehicles, perfectly
+              suited for your daily needs, city tours, and long trips.
+            </p>
+          </div>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="./assets/images/landcruser1-removebg-preview.png"
+                  alt="car"
+                />
+                <div class="car-name">Landcruser</div>
+              </div>
+
+              <div class="swiper-slide">
+                <img
+                  src="./assets/images/prado1-removebg-preview.png"
+                  alt="car"
+                />
+                <div class="car-name">Prado</div>
+              </div>
+
+              <div class="swiper-slide">
+                <img
+                  src="./assets/images/hilux1-removebg-preview.png"
+                  alt="car"
+                />
+                <div class="car-name">Hilux</div>
+              </div>
+
+              <div class="swiper-slide">
+                <img
+                  src="./assets/images/haval1-removebg-preview.png"
+                  alt="car"
+                />
+                <div class="car-name">Haval</div>
+              </div>
+
+              <div class="swiper-slide">
+                <img
+                  src="./assets/images/sportage1-removebg-preview.png"
+                  alt="Car"
+                />
+                <div class="car-name">Kia Sportage</div>
+              </div>
+
+              <div class="swiper-slide">
+                <img
+                  src="./assets/images/grande1-removebg-preview.png"
+                  alt="Car"
+                />
+                <div class="car-name">Grande</div>
+              </div>
+
+              <div class="swiper-slide">
+                <img
+                  src="./assets/images/civic1-removebg-preview.png"
+                  alt="Car"
+                />
+                <div class="car-name">Civic</div>
+              </div>
+
+              <div class="swiper-slide">
+                <img
+                  src="./assets/images/sportage1-removebg-preview.png"
+                  alt="car"
+                />
+                <div class="car-name">Sportage</div>
+              </div>
+
+              <div class="swiper-slide">
+                <img
+                  src="./assets/images/elentra1-removebg-preview.png"
+                  alt="car"
+                />
+                <div class="car-name">Elentra</div>
+              </div>
+
+              <div class="swiper-slide">
+                <img
+                  src="./assets/images/fortuner1-removebg-preview.png"
+                  alt="car"
+                />
+                <div class="car-name">Fortuner</div>
+              </div>
+
+              <div class="swiper-slide">
+                <img
+                  src="./assets/images/cultus1-removebg-preview.png"
+                  alt="car"
+                />
+                <div class="car-name">Cultus</div>
+              </div>
+
+              <div class="swiper-slide">
+                <img
+                  src="./assets/images/mehran1-removebg-preview.png"
+                  alt="car"
+                />
+                <div class="car-name">Mehran</div>
+              </div>
+            </div>
+
+            <!-- Navigation arrows -->
+            <div class="swiper-button-prev">
+              <i class="fas fa-angle-left"></i>
+            </div>
+            <div class="swiper-button-next">
+              <i class="fas fa-angle-right"></i>
+            </div>
+          </div>
+        </div>
+
+        <!--Explore Our Fleet  -->
+        <div class="explore-our-fleet-section">
+          <div class="heading">
+            <h2>Explore Our Fleet</h2>
+            <p>
+              Browse through our handpicked collection of cars and find the
+              perfect match for your journey.
+            </p>
+          </div>
+
+          <div class="car-boxes">
+            <div
+              class="car-box"
+              data-name="Toyota Land Cruiser"
+              data-meta="2024 • 7 Seats • Automatic"
+              data-price="₨ 50,000 / day"
+              data-specs='["SUV","4x4","Petrol","AC"]'
+              data-overview="Toyota Land Cruiser is a powerful and comfortable SUV perfect for long journeys, family trips and off-road adventures."
+              data-features='["✔ Airbags","✔ Bluetooth","✔ Rear Camera","✔ GPS Navigation"]'
+              data-images='[
+       "./assets/images/landcruser1-removebg-preview.png",
+       "./assets/images/landcruser2-removebg-preview.png",
+       "./assets/images/landcruser3-removebg-preview.png",
+       "./assets/images/landcruser4-removebg-preview.png"
+     ]'
+            >
+              <img
+                src="./assets/images/landcruser1-removebg-preview.png"
+                alt="car"
+              />
+              <div class="car-name">Landcruser</div>
+            </div>
+
+            <div
+              class="car-box"
+              data-name="Toyota Prado"
+              data-meta="2022 • 7 Seats • Automatic"
+              data-price="₨ 20,000 / day"
+              data-specs='["SUV","4x4","Diesel","AC"]'
+              data-overview="The Toyota Prado is a reliable and luxurious SUV, perfect for family trips and off-road adventures."
+              data-features='["✔ Airbags","✔ Rear Camera","✔ GPS Navigation","✔ Cruise Control"]'
+              data-images='[
+       "./assets/images/prado1-removebg-preview.png",
+       "./assets/images/prado2-removebg-preview.png",
+       "./assets/images/prado3-removebg-preview.png",
+       "./assets/images/prado4-removebg-preview.png"
+     ]'
+            >
+              <img
+                src="./assets/images/prado1-removebg-preview.png"
+                alt="car"
+              />
+              <div class="car-name">Prado</div>
+            </div>
+
+            <div
+              class="car-box"
+              data-name="Toyota Hilux"
+              data-meta="2025 • 5 Seats • Automatic"
+              data-price="₨ 18,000 / day"
+              data-specs='["Pickup","4x4","Diesel","AC"]'
+              data-overview="The Toyota Hilux is a durable and powerful pickup, ideal for off-road and heavy-duty use."
+              data-features='["✔ Airbags","✔ Bluetooth","✔ Rear Camera","✔ GPS Navigation"]'
+              data-images='[
+       "./assets/images/hilux1-removebg-preview.png",
+       "./assets/images/hilux2-removebg-preview.png",
+       "./assets/images/hilux3-removebg-preview.png",
+       "./assets/images/hilux4-removebg-preview.png"
+     ]'
+            >
+              <img
+                src="./assets/images/hilux1-removebg-preview.png"
+                alt="car"
+              />
+              <div class="car-name">Hilux</div>
+            </div>
+
+            <div
+              class="car-box"
+              data-name="Haval H6 PHEV"
+              data-meta="2023 • 5 Seats • Automatic"
+              data-price="₨ 15,500 / day"
+              data-specs='["SUV","AWD","Hybrid","AC"]'
+              data-overview="The Haval H6 PHEV is a modern hybrid SUV combining efficiency, comfort, and advanced technology."
+              data-features='["✔ Airbags","✔ Bluetooth","✔ Rear Camera","✔ GPS Navigation"]'
+              data-images='[
+       "./assets/images/haval1-removebg-preview.png",
+       "./assets/images/haval2-removebg-preview.png",
+       "./assets/images/haval3-removebg-preview.png",
+       "./assets/images/haval4-removebg-preview.png"
+     ]'
+            >
+              <img
+                src="./assets/images/haval1-removebg-preview.png"
+                alt="car"
+              />
+              <div class="car-name">Haval</div>
+            </div>
+
+            <div
+              class="car-box"
+              data-name="Honda Civic"
+              data-meta="2023 • 5 Seats • Automatic"
+              data-price="₨ 12,000 / day"
+              data-specs='["Sedan","FWD","Petrol","AC"]'
+              data-overview="The Honda Civic is a reliable and stylish sedan, offering comfort, performance, and advanced safety features."
+              data-features='["✔ Airbags","✔ Bluetooth","✔ Rear Camera","✔ GPS Navigation"]'
+              data-images='[
+       "./assets/images/civic1-removebg-preview.png",
+       "./assets/images/civic2-removebg-preview.png",
+       "./assets/images/civic3-removebg-preview.png",
+       "./assets/images/civic4-removebg-preview.png"
+     ]'
+            >
+              <img
+                src="./assets/images/civic1-removebg-preview.png"
+                alt="car"
+              />
+              <div class="car-name">Civic</div>
+            </div>
+
+            <div
+              class="car-box"
+              data-name="Kia Sportage"
+              data-meta="2025 • 5 Seats • Automatic"
+              data-price="₨ 14,500 / day"
+              data-specs='["SUV","AWD","Petrol","AC"]'
+              data-overview="The Kia Sportage is a compact SUV that combines style, comfort, and modern technology for city and highway driving."
+              data-features='["✔ Airbags","✔ Bluetooth","✔ Rear Camera","✔ GPS Navigation"]'
+              data-images='[
+       "./assets/images/sportage1-removebg-preview.png",
+       "./assets/images/sportage2-removebg-preview.png",
+       "./assets/images/sportage3-removebg-preview.png",
+       "./assets/images/sportage4-removebg-preview.png"
+     ]'
+            >
+              <img
+                src="./assets/images/sportage1-removebg-preview.png"
+                alt="car"
+              />
+              <div class="car-name">Sportage</div>
+            </div>
+
+            <div
+              class="car-box"
+              data-name="Hyundai Elantra"
+              data-meta="2025 • 5 Seats • Automatic"
+              data-price="₨ 12,000 / day"
+              data-specs='["Sedan","FWD","Petrol","AC"]'
+              data-overview="The Hyundai Elantra is a stylish and fuel-efficient sedan, perfect for city commutes and long drives."
+              data-features='["✔ Airbags","✔ Bluetooth","✔ Rear Camera","✔ GPS Navigation"]'
+              data-images='[
+       "./assets/images/elentra1-removebg-preview.png",
+       "./assets/images/elentra2-removebg-preview.png",
+       "./assets/images/elentra3-removebg-preview.png",
+       "./assets/images/elentra4-removebg-preview.png"
+     ]'
+            >
+              <img
+                src="./assets/images/elentra1-removebg-preview.png"
+                alt="car"
+              />
+              <div class="car-name">Elentra</div>
+            </div>
+
+            <div
+              class="car-box"
+              data-name="Toyota Grande"
+              data-meta="2022 • 7 Seats • Automatic"
+              data-price="₨ 17,000 / day"
+              data-specs='["SUV","4x2","Petrol","AC"]'
+              data-overview="The Toyota Grande is a spacious and comfortable SUV, ideal for family trips and city driving."
+              data-features='["✔ Airbags","✔ Bluetooth","✔ Rear Camera","✔ GPS Navigation"]'
+              data-images='[
+       "./assets/images/grande1-removebg-preview.png",
+       "./assets/images/grande2-removebg-preview.png",
+       "./assets/images/grande3-removebg-preview.png",
+       "./assets/images/grande4-removebg-preview.png"
+     ]'
+            >
+              <img
+                src="./assets/images/grande1-removebg-preview.png"
+                alt="car"
+              />
+              <div class="car-name">Grande</div>
+            </div>
+
+            <div
+              class="car-box"
+              data-name="Toyota Fortuner"
+              data-meta="2023 • 7 Seats • Automatic"
+              data-price="₨ 19,500 / day"
+              data-specs='["SUV","4x4","Diesel","AC"]'
+              data-overview="The Toyota Fortuner is a rugged and reliable SUV perfect for long trips and off-road adventures."
+              data-features='["✔ Airbags","✔ Bluetooth","✔ Rear Camera","✔ GPS Navigation"]'
+              data-images='[
+       "./assets/images/fortuner1-removebg-preview.png",
+       "./assets/images/fortuner2-removebg-preview.png",
+       "./assets/images/fortuner3-removebg-preview.png",
+       "./assets/images/fortuner4-removebg-preview.png"
+     ]'
+            >
+              <img
+                src="./assets/images/fortuner1-removebg-preview.png"
+                alt="car"
+              />
+              <div class="car-name">Fortuner</div>
+            </div>
+
+            <div
+              class="car-box"
+              data-name="Suzuki Cultus"
+              data-meta="2020 • 5 Seats • Manual"
+              data-price="₨ 7,500 / day"
+              data-specs='["Hatchback","FWD","Petrol","AC"]'
+              data-overview="The Suzuki Cultus is a compact and efficient hatchback, ideal for city driving and daily commutes."
+              data-features='["✔ Airbags","✔ Bluetooth","✔ Rear Camera","✔ ABS"]'
+              data-images='[
+       "./assets/images/cultus1-removebg-preview.png",
+       "./assets/images/cultus2-removebg-preview.png",
+       "./assets/images/cultus3-removebg-preview.png",
+       "./assets/images/cultus4-removebg-preview.png"
+     ]'
+            >
+              <img
+                src="./assets/images/cultus1-removebg-preview.png"
+                alt="car"
+              />
+              <div class="car-name">Cultus</div>
+            </div>
+
+            <div
+              class="car-box"
+              data-name="Suzuki Alto"
+              data-meta="2022 • 5 Seats • Manual"
+              data-price="₨ 6,500 / day"
+              data-specs='["Hatchback","FWD","Petrol","AC"]'
+              data-overview="The Suzuki Alto is a small and nimble city car, perfect for easy parking and fuel efficiency."
+              data-features='["✔ Airbags","✔ Bluetooth","✔ Power Steering","✔ ABS"]'
+              data-images='[
+       "./assets/images/alto1-removebg-preview.png",
+       "./assets/images/alto2-removebg-preview.png",
+       "./assets/images/alto3-removebg-preview.png",
+       "./assets/images/alto4-removebg-preview.png"
+     ]'
+            >
+              <img
+                src="./assets/images/alto1-removebg-preview.png"
+                alt="car"
+              />
+              <div class="car-name">Alto</div>
+            </div>
+
+            <div
+              class="car-box"
+              data-name="Suzuki Mehran"
+              data-meta="2018 • 5 Seats • Manual"
+              data-price="₨ 3,500 / day"
+              data-specs='["Hatchback","FWD","Petrol","AC"]'
+              data-overview="The Suzuki Mehran is a reliable and economical hatchback, ideal for daily city use."
+              data-features='["✔ Airbags","✔ Power Steering","✔ AM/FM Radio","✔ Compact Size"]'
+              data-images='[
+       "./assets/images/mehran1-removebg-preview.png",
+       "./assets/images/mehran2-removebg-preview.png",
+       "./assets/images/mehran3-removebg-preview.png",
+       "./assets/images/mehran4-removebg-preview.png"
+     ]'
+            >
+              <img
+                src="./assets/images/mehran1-removebg-preview.png"
+                alt="car"
+              />
+              <div class="car-name">Mehran</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience Comfort on the Road -->
+
+        <div class="experience-on-road">
+          <div class="car-image">
+            <img
+              src="./assets/images/landcruser1-removebg-preview.png"
+              alt=""
+            />
+          </div>
+          <div class="heading">
+            <h2>Experience Comfort on the Road</h2>
+            <p>
+              Discover a seamless driving experience with our carefully curated
+              collection of vehicles. Each car is maintained to the highest
+              standards, ensuring reliability and safety for every journey.
+              Whether it's a city commute or a long-distance adventure, enjoy
+              comfort and style throughout your ride. Our fleet is designed to
+              provide flexibility, convenience, and a smooth driving experience.
+              Explore our options and choose the car that fits your lifestyle
+              effortlessly.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form -->
+
+      <div class="rent-form-container">
+        <div class="rent-car-form">
+          <div class="heading">
+            <h2>Book Your Ride</h2>
+            <p>
+              Tell us when and where you need your car, and choose from our
+              trusted collection of vehicles. Whether you’re traveling within
+              the city or heading out on a long trip, we’ve got the right ride
+              for you. Each car is carefully maintained to deliver safety,
+              convenience, and peace of mind throughout your journey. Submit
+              your booking request and we’ll handle the rest.
+            </p>
+          </div>
+
+          <form id="rentForm">
+            <div class="form-input-field">
+              <div class="form-group">
+                <label for="fullName">Full Name<span>*</span></label>
+                <input
+                  type="text"
+                  id="fullName"
+                  placeholder="Enter your full name"
+                  autocomplete="off"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone Number<span>*</span></label>
+                <input
+                  type="tel"
+                  id="phone"
+                  placeholder="+92xxxxxxxxxx"
+                  autocomplete="off"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="carType">Select Car<span>*</span></label>
+                <select id="carType">
+                  <option value="">Choose a car</option>
+                  <option value="Land Cruiser">Land Cruiser</option>
+                  <option value="Prado">Prado</option>
+                  <option value="Civic">Civic</option>
+                  <option value="Sportage">Sportage</option>
+                  <option value="Alto">Alto</option>
+                  <option value="Mehran">Mehran</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="pickUpDate">Pick-up Date<span>*</span></label>
+                <input type="date" id="pickUpDate" />
+              </div>
+
+              <div class="form-group">
+                <label for="dropOffDate">Drop-off Date<span>*</span></label>
+                <input type="date" id="dropOffDate" />
+              </div>
+
+              <div class="form-group">
+                <label for="pickUpLocation"
+                  >Pick-up Location<span>*</span></label
+                >
+                <input
+                  type="text"
+                  id="pickUpLocation"
+                  placeholder="Enter pick-up location"
+                />
+              </div>
+            </div>
+
+            <div class="form-group text-area">
+              <label for="message">Additional Notes (Optional)</label>
+              <textarea
+                id="message"
+                rows="3"
+                placeholder="Any extra requirements..."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">
+              Send Booking Request
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Faqs Section -->
+      <section class="faq-section">
+        <div class="heading">
+          <h2 class="faq-heading">FAQ's</h2>
+          <p class="faq-sub">
+            Find answers to the most common questions about booking, pricing,
+            and rental policies.
+          </p>
+        </div>
+
+        <div class="faq-grid">
+          <div class="accordion" id="faqAccordion">
+            <div class="accordion-item custom-accordion">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed custom-accordion-btn"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#q1"
+                >
+                  What documents are required to rent a car?
+                </button>
+              </h2>
+              <div
+                id="q1"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body custom-accordion-body">
+                  You need a valid government-issued ID (CNIC/Passport) and a
+                  valid driving license.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item custom-accordion">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed custom-accordion-btn"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#q2"
+                >
+                  Can I rent a car without a driver?
+                </button>
+              </h2>
+              <div
+                id="q2"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body custom-accordion-body">
+                  Yes, self-drive options are available depending on vehicle
+                  type and security deposit.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item custom-accordion">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed custom-accordion-btn"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#q3"
+                >
+                  Is there a daily mileage limit?
+                </button>
+              </h2>
+              <div
+                id="q3"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body custom-accordion-body">
+                  Most rentals include a standard daily mileage limit. Extra
+                  kilometers may be charged separately.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item custom-accordion">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed custom-accordion-btn"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#q4"
+                >
+                  Can I extend my rental?
+                </button>
+              </h2>
+              <div
+                id="q4"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body custom-accordion-body">
+                  Yes, contact us at least 12 hours before return time to extend
+                  your booking.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="faqAccordion1">
+            <div class="accordion-item custom-accordion">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed custom-accordion-btn"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#q5"
+                >
+                  What payment methods do you accept?
+                </button>
+              </h2>
+              <div
+                id="q5"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion1"
+              >
+                <div class="accordion-body custom-accordion-body">
+                  We accept cash, bank transfer, and digital wallet payments.
+                  Security deposits may apply.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item custom-accordion">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed custom-accordion-btn"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#q6"
+                >
+                  Do you offer airport pick-up or drop-off?
+                </button>
+              </h2>
+              <div
+                id="q6"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion1"
+              >
+                <div class="accordion-body custom-accordion-body">
+                  Yes, airport pick-up and drop-off services are available with
+                  prior booking.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item custom-accordion">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed custom-accordion-btn"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#q7"
+                >
+                  Are fuel charges included in the rental price?
+                </button>
+              </h2>
+              <div
+                id="q7"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion1"
+              >
+                <div class="accordion-body custom-accordion-body">
+                  Fuel is not included. Cars must be returned with the same fuel
+                  level as provided.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item custom-accordion">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed custom-accordion-btn"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#q8"
+                >
+                  What if the vehicle gets damaged?
+                </button>
+              </h2>
+              <div
+                id="q8"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion1"
+              >
+                <div class="accordion-body custom-accordion-body">
+                  Any damage during rental is the renter’s responsibility unless
+                  covered by insurance or agreement.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="site-footer">
+      <div class="custom-container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <a href="/" class="footerLogo"
+              ><img
+                src="assets\images\rentcarlogo-removebg-preview.png"
+                alt="Logo"
+                class="footer-logo"
+            /></a>
+            <p class="footer-desc">
+              Your trusted car rental service offering premium vehicles,
+              professional support, and seamless booking experience.
+            </p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+              <a href="#"><i class="fab fa-x-twitter"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="/cars.html">Cars</a></li>
+              <li><a href="/contact.html">Contact Us</a></li>
+              <li><a href="/about.html">About Us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Legal</h3>
+            <ul>
+              <li><a href="/services.html">Services</a></li>
+              <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+              <li><a href="/terms-conditions.html">Terms & Conditions</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Stay Updated</h3>
+            <p class="footer-desc">
+              Subscribe to get exclusive deals, new vehicle updates, and special
+              offers.
+            </p>
+            <form class="footer-form">
+              <input type="email" placeholder="Enter your email" required />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2025 Rent A Car — All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Form Modal -->
+    <div class="modal fade" id="quoteModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="modal-logo"
+              ><img
+                src="assets\images\rentcarlogo-removebg-preview.png"
+                alt="logo"
+            /></span>
+            <h5 class="modal-title">Request a Quote</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form id="rentForm">
+              <div class="form-input-field">
+                <div class="form-group">
+                  <label for="fullName">Full Name<span>*</span></label>
+                  <input
+                    type="text"
+                    id="fullName"
+                    placeholder="Enter your full name"
+                    autocomplete="off"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="phone">Phone Number<span>*</span></label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    placeholder="+92xxxxxxxxxx"
+                    autocomplete="off"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="carType">Select Car<span>*</span></label>
+                  <select id="carType" required>
+                    <option value="">Choose a car</option>
+                    <option value="Land Cruiser">Land Cruiser</option>
+                    <option value="Prado">Prado</option>
+                    <option value="Civic">Civic</option>
+                    <option value="Sportage">Sportage</option>
+                    <option value="Alto">Alto</option>
+                    <option value="Mehran">Mehran</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="pickUpDate">Pick-up Date<span>*</span></label>
+                  <input type="date" id="pickUpDate" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="dropOffDate">Drop-off Date<span>*</span></label>
+                  <input type="date" id="dropOffDate" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="pickUpLocation"
+                    >Pick-up Location<span>*</span></label
+                  >
+                  <input
+                    type="text"
+                    id="pickUpLocation"
+                    placeholder="Enter pick-up location"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-group text-area">
+                <label for="message">Additional Notes (Optional)</label>
+                <textarea
+                  id="message"
+                  rows="3"
+                  placeholder="Any extra requirements..."
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn-submit">
+                Send Booking Request
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/javascript/script.js"></script>
+    <script src="assets/javascript/dynamic-data.js"></script>
+  </body>
+</html>

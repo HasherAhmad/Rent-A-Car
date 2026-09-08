@@ -1,0 +1,1663 @@
+@media (max-width: 1800px) {
+  .term-condition .heading h1,
+  .privacy-policy .heading h1,
+  .service-container .heading h1,
+  .about-page .heading h1,
+  .contact-page .heading h1,
+  .cars-page .heading h1,
+  .banner .textAndImage .heading-text h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 1700px) {
+  .faq-section,
+  .rent-form-container .rent-car-form,
+  .custom-container {
+    max-width: 1400px;
+  }
+  .short-rules .srvice-car-image img,
+  .steps .srvice-car-image img {
+    max-width: 430px;
+  }
+}
+@media (max-width: 1600px) {
+  .term-condition .heading h1,
+  .privacy-policy .heading h1,
+  .service-container .heading h1,
+  .about-page .heading h1,
+  .contact-page .heading h1,
+  .cars-page .heading h1,
+  .banner .textAndImage .heading-text h1 {
+    font-size: 44px;
+  }
+  .banner .textAndImage .banner-image img {
+    max-width: 600px;
+  }
+  .experience-on-road .car-image img {
+    margin-left: -130px;
+    width: 600px;
+  }
+  .about-cta h2,
+  .about-content .heading h2,
+  .rent-car-form .heading h2,
+  .experience-on-road .heading h2,
+  .explore-our-fleet-section .heading h2,
+  .choose-your-ride .heading h2 {
+    font-size: 40px;
+  }
+  .short-rules .srvice-car-image img,
+  .steps .srvice-car-image img {
+    max-width: 390px;
+  }
+  .services-section .steps h2,
+  .services-section .short-rules h2 {
+    font-size: 30px;
+  }
+  .about-page .about-box h3 {
+    margin-bottom: 6px;
+    font-size: 26px;
+  }
+}
+@media (max-width: 1500px) {
+  .faq-section,
+  .rent-form-container .rent-car-form,
+  .custom-container {
+    max-width: 1300px;
+  }
+  .term-condition .heading h1,
+  .privacy-policy .heading h1,
+  .service-container .heading h1,
+  .about-page .heading h1,
+  .contact-page .heading h1,
+  .cars-page .heading h1,
+  .banner .textAndImage .heading-text h1 {
+    font-size: 40px;
+  }
+  .banner .textAndImage .banner-image img {
+    max-width: 500px;
+  }
+  .experience-on-road .car-image img {
+    margin-left: -100px;
+    width: 500px;
+  }
+  .about-cta h2,
+  .about-content .heading h2,
+  .rent-car-form .heading h2,
+  .experience-on-road .heading h2,
+  .explore-our-fleet-section .heading h2,
+  .choose-your-ride .heading h2 {
+    font-size: 36px;
+  }
+  .short-rules .srvice-car-image img,
+  .steps .srvice-car-image img {
+    max-width: 350px;
+  }
+  .about-page .about-box i {
+    font-size: 36px;
+    margin-bottom: 14px;
+  }
+  .about-page .about-box h3 {
+    font-size: 24px;
+  }
+  .term-condition .content h2,
+  .privacy-policy .content h2 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 1399.98px) {
+  .detail-page,
+  .term-condition,
+  .privacy-policy,
+  .service-container,
+  .about-page,
+  .contact-page,
+  .faq-section,
+  .rent-form-container .rent-car-form,
+  .custom-container {
+    max-width: 1100px;
+  }
+  .term-condition .heading h1,
+  .privacy-policy .heading h1,
+  .service-container .heading h1,
+  .about-page .heading h1,
+  .contact-page .heading h1,
+  .cars-page .heading h1,
+  .banner .textAndImage .heading-text h1 {
+    font-size: 36px;
+  }
+  .about-cta h2,
+  .about-content .heading h2,
+  .rent-car-form .heading h2,
+  .experience-on-road .heading h2,
+  .explore-our-fleet-section .heading h2,
+  .choose-your-ride .heading h2 {
+    font-size: 30px;
+  }
+  .banner .textAndImage .banner-image img {
+    max-width: 450px;
+  }
+  .experience-on-road .car-image img {
+    margin-left: -80px;
+    width: 450px;
+  }
+  .rent-car-form .heading p,
+  .experience-on-road .heading p,
+  .explore-our-fleet-section .heading p,
+  .choose-your-ride .heading p {
+    font-size: 16px;
+  }
+  .banner .textAndImage .heading-text p {
+    font-size: 18px;
+  }
+  .trust-box h4 {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+  .cars-page .car-card .car-name,
+  .choose-your-ride .swiper-slide .car-name {
+    font-size: 16px;
+  }
+  #rentForm .form-input-field {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  #rentForm button,
+  #rentForm .form-group.text-area {
+    margin-top: 10px;
+  }
+  footer .footer-logo,
+  header .logo img {
+    max-width: 200px;
+  }
+  #rentForm button,
+  #rentForm .form-group textarea,
+  #rentForm .form-group select,
+  #rentForm .form-group input,
+  #rentForm button,
+  #rentForm label,
+  footer .footer-bottom,
+  footer .footer-form input::placeholder,
+  footer .footer-desc,
+  footer .footer-col ul li a,
+  .faq-section .custom-accordion-body,
+  .faq-section .custom-accordion-btn,
+  .faq-section .heading p,
+  .details .get-a-quote,
+  header .get-a-quote,
+  header nav ul li a {
+    font-size: 16px;
+  }
+  .faq-section .heading h2 {
+    font-size: 100px;
+  }
+  .faq-section .custom-accordion-body,
+  .faq-section .custom-accordion-btn {
+    padding: 16px;
+  }
+  footer .footer-col h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  footer .footer-col ul li {
+    margin-bottom: 4px;
+  }
+  footer .footer-logo {
+    margin-top: -20px;
+    margin-bottom: 0;
+  }
+  footer .social-icons {
+    font-size: 20px;
+    column-gap: 30px;
+  }
+  footer .footer-grid {
+    gap: 30px;
+  }
+  footer .footer-form input,
+  footer .footer-form button {
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  #rentForm {
+    margin-left: 20px;
+  }
+  .rent-form-container {
+    padding: 60px 0;
+  }
+  #rentForm .form-group select {
+    height: 44px;
+  }
+  .service-page-cta .cta-btn,
+  .about-page .cta-btn,
+  .cars-page .load-more button {
+    padding: 10px 20px;
+  }
+  .cars-page .search-input input,
+  .cars-search span {
+    padding: 10px 20px;
+  }
+  .services-section .steps h2,
+  .services-section .short-rules h2 {
+    font-size: 26px;
+    margin-bottom: 12px;
+  }
+  .services-section .steps ul,
+  .services-section .short-rules ul {
+    max-width: 550px;
+  }
+  .short-rules .srvice-car-image img,
+  .steps .srvice-car-image img {
+    max-width: 320px;
+    top: 20px;
+  }
+  .service-card h3 {
+    font-size: 18px;
+  }
+  .service-card i {
+    font-size: 30px;
+  }
+  .services-grid {
+    gap: 20px;
+  }
+  .contact-page .contact-box i,
+  .about-page .about-box i {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .about-page .about-box h3 {
+    font-size: 20px;
+    margin-bottom: 2px;
+  }
+  .about-page .about-box {
+    padding: 22px;
+  }
+  .explore-our-fleet-section .car-boxes .car-box {
+    min-height: 280px;
+  }
+  .contact-form #rentForm .form-input-field {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .contact-form #rentForm .form-group select {
+    height: 46px;
+  }
+  .term-condition .content h2,
+  .privacy-policy .content h2 {
+    font-size: 24px;
+  }
+  .term-condition .content ul,
+  .privacy-policy .content ul,
+  .term-condition .content p,
+  .privacy-policy .content p {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .term-condition .content p.copy-right,
+  .privacy-policy .content p.copy-right {
+    font-size: 12px !important;
+  }
+  .trust-box i {
+    font-size: 36px;
+  }
+  .detail-page .details h2 {
+    font-size: 26px;
+  }
+  .detail-page .car-meta {
+    font-size: 12px;
+  }
+  .detail-page .spec {
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 4px;
+  }
+  .detail-page .price {
+    margin-top: 8px;
+    font-size: 22px;
+  }
+  .detail-page .specs {
+    margin-top: 10px;
+  }
+  .detail-page .section-title {
+    margin-top: 2px;
+    font-size: 16px;
+  }
+  .detail-page .swiper-slide img {
+    height: 280px;
+    width: 390px;
+  }
+}
+@media (max-width: 1199.98px) {
+  footer .footer-logo,
+  header .logo img {
+    max-width: 170px;
+  }
+  .details .get-a-quote,
+  header .get-a-quote {
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-weight: 400;
+  }
+  header nav ul li a {
+    font-weight: 400;
+  }
+  .term-condition .heading h1,
+  .privacy-policy .heading h1,
+  .service-container .heading h1,
+  .about-page .heading h1,
+  .contact-page .heading h1,
+  .cars-page .heading h1,
+  .banner .textAndImage .heading-text h1 {
+    font-size: 30px;
+  }
+  .term-condition .heading p,
+  .privacy-policy .heading p,
+  .service-container .heading,
+  .about-cta p,
+  .about-page .heading p,
+  .contact-page .heading p,
+  .cars-page .heading p,
+  .trust-box h4,
+  .banner .textAndImage .heading-text p {
+    font-size: 16px;
+  }
+  .banner .textAndImage {
+    padding: 120px 40px 40px 40px;
+    gap: 10px;
+  }
+  .banner .textAndImage .banner-image img {
+    max-width: 380px;
+  }
+  .detail-page,
+  .term-condition,
+  .privacy-policy,
+  .service-container,
+  .about-page,
+  .contact-page,
+  .faq-section,
+  .rent-form-container .rent-car-form,
+  .custom-container,
+  .faq-section,
+  .rent-form-container .rent-car-form,
+  .custom-container {
+    max-width: 900px;
+  }
+  .trust-box i {
+    font-size: 30px;
+  }
+  .trust-box p {
+    font-size: 12px;
+  }
+  .about-cta h2,
+  .about-content .heading h2,
+  .rent-car-form .heading h2,
+  .experience-on-road .heading h2,
+  .explore-our-fleet-section .heading h2,
+  .choose-your-ride .heading h2 {
+    font-size: 26px;
+  }
+  .cars-page .car-card .car-name,
+  .choose-your-ride .swiper-slide .car-name,
+  .rent-car-form .heading p,
+  .experience-on-road .heading p,
+  .explore-our-fleet-section .heading p,
+  .choose-your-ride .heading p {
+    font-weight: 400;
+  }
+  .cars-page .car-card img,
+  .choose-your-ride .swiper-slide img {
+    max-width: 180px;
+    height: 170px;
+  }
+  .choose-your-ride .swiper-button-prev,
+  .choose-your-ride .swiper-button-next {
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+  }
+  .choose-your-ride .swiper-button-next {
+    right: 4px !important;
+  }
+  .choose-your-ride .swiper-button-prev {
+    left: 4px !important;
+  }
+  .explore-our-fleet-section .car-box img {
+    max-width: 180px;
+    max-height: 170px;
+  }
+  .experience-on-road .car-image img {
+    margin-left: -70px;
+    width: 380px;
+  }
+  .rent-form-container .rent-car-form {
+    gap: 10px;
+  }
+  .rent-form-container {
+    padding: 50px 0;
+  }
+  .faq-section .heading h2 {
+    font-size: 80px;
+  }
+  .faq-section {
+    margin: 30px auto 40px auto;
+  }
+  #quoteModal .modal-dialog .modal-header h5 {
+    font-size: 20px;
+  }
+  #quoteModal .modal-dialog .modal-header {
+    padding: 10px;
+  }
+  .cars-page .search-input input,
+  .cars-search span {
+    padding: 10px 20px;
+  }
+  .cars-page .search-input input,
+  .cars-page .search-input input::placeholder {
+    font-size: 18px;
+  }
+  .cars-search span {
+    font-size: 20px;
+  }
+  .service-page-cta .cta-btn,
+  .about-page .cta-btn,
+  .cars-page .load-more button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  .term-condition,
+  .privacy-policy,
+  .contact-page,
+  .about-page,
+  .cars-page {
+    margin: 90px auto 60px auto;
+  }
+  .services-section {
+    padding: 90px 0 40px 0;
+  }
+  .service-card p {
+    font-size: 14px;
+  }
+  .service-card i {
+    font-size: 28px;
+  }
+  .service-card h3 {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  .service-card {
+    padding: 20px;
+  }
+  .services-grid {
+    gap: 16px;
+  }
+  .services-section .steps,
+  .services-section .short-rules {
+    margin-top: 50px;
+  }
+  .services-section .steps ul,
+  .services-section .short-rules ul {
+    max-width: 450px;
+  }
+  .services-section .steps ul li,
+  .services-section .short-rules ul li {
+    padding: 10px;
+    font-weight: 400;
+  }
+  .short-rules .srvice-car-image img,
+  .steps .srvice-car-image img {
+    max-width: 270px;
+  }
+  .services-section .steps h2,
+  .services-section .short-rules h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .explore-our-fleet-section .car-boxes .car-box {
+    min-height: 240px;
+  }
+  .about-page .about-grid {
+    gap: 16px;
+  }
+  .about-page .about-box {
+    padding: 20px 12px;
+  }
+  .contact-page .contact-box i,
+  .about-page .about-box i {
+    font-size: 28px;
+  }
+  .about-page .about-box h3 {
+    font-size: 18px;
+  }
+  .about-page .about-box p {
+    line-height: 1.5;
+    font-size: 14px;
+  }
+  .about-page .about-cta {
+    margin-top: 60px;
+  }
+  .contact-page .contact-box {
+    padding: 16px 12px;
+  }
+  .contact-page .contact-box h3 {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  .term-condition .content h2,
+  .privacy-policy .content h2 {
+    font-size: 22px;
+  }
+  .detail-page .details h2 {
+    font-size: 22px;
+  }
+  .detail-page .specs {
+    margin-top: 6px;
+  }
+  .detail-page .price {
+    margin-top: 6px;
+    font-size: 20px;
+  }
+  .detail-page .description {
+    margin-top: 2px;
+    font-size: 14px;
+  }
+  .detail-page .feature {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 991.98px) {
+  .banner .textAndImage .banner-image img {
+    max-width: 290px;
+  }
+  .banner .textAndImage .heading-text h1 {
+    font-size: 26px;
+  }
+  .banner .textAndImage {
+    padding: 80px 24px 24px 24px;
+    gap: 5px;
+  }
+  .term-condition .heading h1,
+  .privacy-policy .heading h1,
+  .service-container .heading h1,
+  .about-page .heading h1,
+  .contact-page .heading h1,
+  .cars-page .heading h1,
+  .banner .textAndImage .heading-text h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .term-condition .heading p,
+  .privacy-policy .heading p,
+  .service-container .heading,
+  .about-cta p,
+  .about-page .heading p,
+  .contact-page .heading p,
+  .cars-page .heading p,
+  .banner .textAndImage .heading-text p {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  /* Header */
+  header nav {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #fbfcfd;
+    flex-direction: column;
+    padding-top: 40px;
+    transition: left 0.3s;
+    border-right: 1px solid #e2e8f0;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    display: flex;
+    gap: 16px;
+    padding: 0 20px;
+  }
+
+  header nav.active {
+    left: 0;
+  }
+
+  header .menu-toggle {
+    display: block;
+    color: #271669;
+    position: fixed;
+    z-index: 1001;
+    font-size: 22px;
+    cursor: pointer;
+    transition: left 0.3s;
+  }
+  header .menu-toggle.fa-xmark {
+    background-color: #fff;
+    padding: 6px;
+    border-radius: 4px;
+  }
+  header nav.active ~ .menu-toggle,
+  header nav.active + .menu-toggle {
+    left: 260px;
+  }
+  header .logo img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1px;
+  }
+  footer .footer-logo,
+  header .logo img {
+    max-width: 150px;
+  }
+  header {
+    padding: 6px 12px;
+  }
+  .details .get-a-quote,
+  header .get-a-quote {
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  header nav ul li {
+    border-bottom: 1px solid #e2e8f0;
+  }
+  /* header end */
+  .detail-page,
+  .term-condition,
+  .privacy-policy,
+  .service-container,
+  .about-page,
+  .contact-page,
+  .faq-section,
+  .rent-form-container .rent-car-form,
+  .custom-container,
+  .faq-section,
+  .rent-form-container .rent-car-form,
+  .custom-container {
+    max-width: 700px;
+  }
+  .trust-section {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    padding-bottom: 20px;
+  }
+  .trust-box {
+    padding: 16px;
+  }
+  .trust-box i {
+    font-size: 26px;
+    margin-bottom: 6px;
+  }
+  .explore-our-fleet-section .heading,
+  .choose-your-ride .heading {
+    margin: 20px 0;
+  }
+  .explore-our-fleet-section .car-boxes .car-box .car-name,
+  .rent-car-form .heading p,
+  .experience-on-road .heading p,
+  .explore-our-fleet-section .heading p,
+  .choose-your-ride .heading p {
+    font-size: 14px;
+  }
+  .cars-page .car-card img,
+  .choose-your-ride .swiper-slide img {
+    max-width: 170px;
+    height: 160px;
+    margin-bottom: 0;
+  }
+  .cars-page .car-card .car-name,
+  .choose-your-ride .swiper-slide .car-name {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .choose-your-ride {
+    margin-bottom: 20px;
+  }
+  .explore-our-fleet-section .car-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    max-width: 700px;
+    margin: 30px auto;
+  }
+  .explore-our-fleet-section .car-boxes .car-box {
+    min-height: 230px;
+  }
+  .explore-our-fleet-section .car-box img {
+    max-width: 170px;
+    max-height: 160px;
+  }
+  .experience-on-road .car-image img {
+    margin-left: -50px;
+    width: 290px;
+  }
+  .about-cta h2,
+  .about-content .heading h2,
+  .rent-car-form .heading h2,
+  .experience-on-road .heading h2,
+  .explore-our-fleet-section .heading h2,
+  .choose-your-ride .heading h2 {
+    font-size: 22px;
+  }
+  .rent-form-container .rent-car-form {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #rentForm {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  #rentForm .form-input-field {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  footer .footer-form input,
+  footer .footer-form button,
+  #rentForm button,
+  #rentForm .form-group textarea,
+  #rentForm .form-group select,
+  #rentForm .form-group input,
+  #rentForm button,
+  #rentForm label,
+  footer .footer-form input::placeholder,
+  footer .footer-desc,
+  footer .footer-col ul li a,
+  .faq-section .custom-accordion-body,
+  .faq-section .custom-accordion-btn,
+  .faq-section .heading p,
+  .details .get-a-quote,
+  header .get-a-quote,
+  header nav ul li a {
+    font-size: 14px;
+  }
+  .experience-on-road {
+    margin-bottom: 10px;
+  }
+  .faq-section .heading h2 {
+    font-size: 70px;
+  }
+  .faq-section {
+    margin: 20px auto 30px auto;
+  }
+  .faq-section .faq-grid {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 0;
+  }
+  .faq-section .heading {
+    margin-bottom: 30px;
+  }
+  .faq-section .custom-accordion {
+    border: 2px solid #271669;
+    margin-bottom: 12px;
+  }
+  .faq-section .custom-accordion-body,
+  .faq-section .custom-accordion-btn {
+    padding: 10px;
+  }
+  .faq-section .custom-accordion-body {
+    border-top: 2px solid #271669;
+  }
+  #faqAccordion1 .accordion-button::after,
+  #faqAccordion .accordion-button::after {
+    background-size: 16px;
+  }
+  footer .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  footer.site-footer {
+    padding: 40px 0 10px 0;
+  }
+  footer .footer-grid {
+    gap: 20px;
+  }
+  footer .footer-desc {
+    margin-bottom: 10px;
+  }
+  footer .footer-col ul li {
+    margin-bottom: 0;
+  }
+  footer .footer-col h3 {
+    margin-bottom: 4px;
+    font-size: 16px;
+  }
+  footer .footer-logo {
+    margin-top: -14px;
+  }
+  footer .footer-bottom {
+    margin-top: 30px;
+    font-size: 12px;
+  }
+  footer .footer-bottom p {
+    padding-top: 8px;
+  }
+  #quoteModal .modal-dialog {
+    max-width: 600px;
+  }
+  #quoteModal .modal-dialog .modal-header h5 {
+    font-size: 18px;
+  }
+  #quoteModal .modal-logo img {
+    max-width: 140px;
+  }
+  #rentForm .form-group select {
+    height: 41px;
+  }
+  .cars-page .cars-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .service-page-cta .cta-btn,
+  .about-page .cta-btn,
+  .cars-page .load-more button {
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .cars-page .search-input input,
+  .cars-page .search-input input::placeholder {
+    font-size: 16px;
+  }
+  .term-condition,
+  .privacy-policy,
+  .contact-page,
+  .about-page,
+  .cars-page {
+    margin: 60px auto 40px auto;
+  }
+  .service-page-cta .cta-btn,
+  .cars-page .load-more {
+    margin-top: 30px;
+  }
+  .detail-page {
+    margin: 60px auto 0 auto;
+  }
+  .services-section {
+    padding: 60px 0 0 0;
+  }
+  .service-card i {
+    font-size: 26px;
+    margin-bottom: 12px;
+  }
+  .service-card h3 {
+    font-size: 14px;
+  }
+  .service-card p {
+    font-size: 12px;
+  }
+  .service-card {
+    padding: 16px;
+  }
+  .services-section .steps h2,
+  .services-section .short-rules h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  .services-section .steps ul li,
+  .services-section .short-rules ul li {
+    padding: 7px;
+    font-size: 14px;
+  }
+  .service-container .heading {
+    margin-bottom: 30px;
+  }
+  .services-section .steps,
+  .services-section .short-rules {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .short-rules .srvice-car-image img,
+  .steps .srvice-car-image img {
+    position: static;
+  }
+  .services-section .steps ul,
+  .services-section .short-rules ul {
+    max-width: 400px;
+    width: 100%;
+  }
+  .services-section .steps {
+    margin-top: 30px;
+  }
+  .services-section .short-rules {
+    margin-top: 20px;
+  }
+  .service-page-cta {
+    margin: 10px 0 40px 0;
+  }
+  .about-page .about-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  .contact-page .contact-box i,
+  .about-page .about-box i {
+    font-size: 26px;
+    margin-bottom: 8px;
+  }
+  .about-page .about-box h3 {
+    font-size: 16px;
+  }
+  .about-page .about-box p {
+    line-height: 1.4;
+    font-size: 12px;
+  }
+  .about-page .about-box {
+    padding: 16px;
+  }
+  .about-page .about-cta {
+    margin-top: 50px;
+  }
+  .about-page .faq-section {
+    margin: 30px auto 30px auto;
+  }
+  .about-page .cta-btn {
+    margin-top: 20px;
+  }
+  .about-page .about-content .heading {
+    margin-bottom: 20px;
+  }
+  .contact-page .contact-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  .contact-page .contact-box p {
+    font-size: 14px;
+  }
+  .contact-form #rentForm .form-input-field {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  .contact-form #rentForm .form-group select {
+    height: 43px;
+  }
+  #rentForm .form-group textarea {
+    min-height: 120px;
+  }
+  .term-condition .content h2,
+  .privacy-policy .content h2 {
+    font-size: 20px;
+  }
+  .term-condition .content ul,
+  .privacy-policy .content ul,
+  .term-condition .content p,
+  .privacy-policy .content p {
+    margin-bottom: 8px;
+    font-size: 12px;
+  }
+  .term-condition .content p.copy-right,
+  .privacy-policy .content p.copy-right {
+    font-size: 10px !important;
+  }
+  .detail-page .details h2 {
+    font-size: 18px;
+    margin: 0 2px 6px 0;
+  }
+  .detail-page .car-meta {
+    font-size: 10px;
+  }
+  .detail-page .spec {
+    font-size: 12px;
+    padding: 2px 6px;
+  }
+  .detail-page .specs {
+    margin-top: 4px;
+    gap: 6px;
+  }
+  .detail-page .price {
+    font-size: 16px;
+  }
+  .detail-page .section-title {
+    margin-top: 0;
+    font-size: 14px;
+  }
+  .detail-page .description {
+    margin-top: 0;
+    font-size: 12px;
+  }
+  .detail-page .feature {
+    padding: 2px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+  }
+  .detail-page .features {
+    margin-top: 4px;
+    gap: 6px;
+  }
+  .details .get-a-quote {
+    margin-top: 8px;
+    font-size: 12px;
+  }
+  .detail-page .details {
+    border-radius: 10px;
+    padding: 12px;
+  }
+  .detail-page .swiper-slide {
+    border-radius: 10px;
+    padding: 12px 0;
+  }
+  .detail-page .swiper-slide img {
+    height: 220px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .detail-page .car-detail {
+    gap: 30px;
+  }
+  .detail-page .swiper-pagination-bullet {
+    height: 6px;
+    width: 6px;
+  }
+  .details .get-a-quote i {
+    font-size: 12px;
+  }
+  .modal-dialog {
+    margin-top: 50px !important;
+  }
+}
+@media (max-width: 767.98px) {
+  header .logo img {
+    max-width: 130px;
+    top: 3px;
+  }
+  .banner .textAndImage {
+    flex-direction: column;
+  }
+  .banner .textAndImage {
+    padding: 80px 40px 20px 40px;
+    gap: 20px;
+  }
+  .detail-page,
+  .term-condition,
+  .privacy-policy,
+  .service-container,
+  .about-page,
+  .contact-page,
+  .faq-section,
+  .rent-form-container .rent-car-form,
+  .custom-container,
+  .faq-section,
+  .rent-form-container .rent-car-form,
+  .custom-container {
+    max-width: 550px;
+  }
+  .trust-section {
+    padding: 20px;
+  }
+  .explore-our-fleet-section .car-boxes {
+    gap: 12px;
+  }
+  .experience-on-road {
+    flex-direction: column-reverse;
+    margin-top: 20px;
+  }
+  .experience-on-road .car-image img {
+    margin-left: 0 !important;
+  }
+  .rent-form-container {
+    padding: 30px 0;
+  }
+  #rentForm button,
+  #rentForm .form-group textarea,
+  #rentForm .form-group select,
+  #rentForm .form-group input {
+    padding: 8px 10px;
+  }
+  #rentForm .form-group select {
+    height: 37px;
+  }
+  .faq-section .heading h2 {
+    font-size: 60px;
+  }
+  header nav.active ~ .menu-toggle,
+  header nav.active + .menu-toggle {
+    left: 250px;
+  }
+  #quoteModal .modal-dialog {
+    max-width: 500px;
+  }
+  #quoteModal #rentForm .form-input-field {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #quoteModal .modal-dialog .modal-header h5 {
+    font-size: 16px;
+  }
+  #quoteModal .modal-dialog .modal-header {
+    padding: 6px 10px;
+  }
+  .cars-page .cars-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  .cars-page .search-input input,
+  .cars-search span {
+    padding: 7px 14px;
+  }
+  .cars-page .search-input {
+    border: 2px solid #271669;
+    margin-bottom: 30px;
+  }
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .short-rules .srvice-car-image img,
+  .steps .srvice-car-image img {
+    max-width: 250px;
+  }
+  .contact-form #rentForm .form-group select {
+    height: 39px;
+  }
+  .term-condition .content h2,
+  .privacy-policy .content h2 {
+    font-size: 18px;
+  }
+  .trust-section.detail-trust-section {
+    padding: 20px 0;
+  }
+  .detail-page .car-detail {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .detail-page .swiper-slide img {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 575.98px) {
+  .term-condition .heading h1,
+  .privacy-policy .heading h1,
+  .service-container .heading h1,
+  .about-page .heading h1,
+  .contact-page .heading h1,
+  .cars-page .heading h1,
+  .banner .textAndImage .heading-text h1 {
+    font-size: 22px;
+  }
+  .detail-page,
+  .term-condition,
+  .privacy-policy,
+  .service-container,
+  .about-page,
+  .contact-page,
+  .faq-section,
+  .rent-form-container .rent-car-form,
+  .custom-container,
+  .faq-section,
+  .rent-form-container .rent-car-form,
+  .custom-container {
+    max-width: 480px;
+  }
+  .about-cta h2,
+  .about-content .heading h2,
+  .rent-car-form .heading h2,
+  .experience-on-road .heading h2,
+  .explore-our-fleet-section .heading h2,
+  .choose-your-ride .heading h2 {
+    font-size: 20px;
+  }
+  .explore-our-fleet-section .car-boxes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .explore-our-fleet-section .car-boxes .car-box {
+    min-height: 200px;
+  }
+  #rentForm .form-input-field {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #quoteModal .modal-dialog {
+    max-width: 460px;
+  }
+  #quoteModal .modal-dialog .modal-header h5 {
+    display: none;
+  }
+  #quoteModal .modal-dialog .modal-header {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  #quoteModal .modal-dialog .modal-header button {
+    background-size: 14px;
+  }
+  .cars-page .cars-grid {
+    gap: 12px;
+  }
+  .cars-page .search-input input,
+  .cars-page .search-input input::placeholder {
+    font-size: 14px;
+  }
+  .cars-search span {
+    font-size: 18px;
+  }
+  .cars-page .search-input {
+    margin-bottom: 26px;
+  }
+  .term-condition .heading,
+  .privacy-policy .heading,
+  .about-page .heading,
+  .contact-page .heading,
+  .cars-page .heading {
+    margin: 0 auto 30px auto;
+  }
+  .service-page-cta .cta-btn,
+  .cars-page .load-more {
+    margin-top: 20px;
+  }
+  .service-page-cta .cta-btn,
+  .about-page .cta-btn,
+  .cars-page .load-more button {
+    padding: 6px 12px;
+  }
+  .service-card i {
+    font-size: 24px;
+  }
+  .service-card {
+    padding: 14px;
+  }
+  .services-section .steps h2,
+  .services-section .short-rules h2 {
+    font-size: 18px;
+    margin-bottom: 2px;
+  }
+  .services-section .steps ul li,
+  .services-section .short-rules ul li {
+    padding: 6px;
+    font-size: 12px;
+    border-radius: 6px;
+    margin: 8px 0;
+  }
+  .short-rules .srvice-car-image img,
+  .steps .srvice-car-image img {
+    max-width: 240px;
+  }
+  .services-section .steps ul,
+  .services-section .short-rules ul {
+    max-width: 350px;
+  }
+  .service-container .heading {
+    margin-bottom: 20px;
+  }
+  .service-page-cta {
+    margin: 10px 0 30px 0;
+  }
+  .contact-page .contact-box i,
+  .about-page .about-box i {
+    font-size: 24px;
+    margin-bottom: 6px;
+  }
+  .about-page .about-box h3 {
+    font-size: 14px;
+  }
+  .about-page .about-box {
+    padding: 14px;
+  }
+  .about-page .about-cta {
+    margin-top: 40px;
+  }
+  .about-page .cta-btn {
+    margin-top: 16px;
+  }
+  .about-page .about-content .heading {
+    margin-bottom: 10px;
+  }
+  .contact-page .contact-box h3 {
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+  .contact-page .contact-box p {
+    font-size: 12px;
+  }
+  .contact-form #rentForm .form-input-field {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+  }
+  .contact-page .contact-box {
+    padding: 14px;
+  }
+  .contact-form #rentForm {
+    padding: 20px;
+  }
+  #rentForm .form-group textarea {
+    min-height: 100px;
+  }
+  .term-condition .content h2,
+  .privacy-policy .content h2 {
+    font-size: 16px;
+  }
+  .term-condition .content,
+  .privacy-policy .content {
+    padding: 0 1rem 1rem 1rem;
+  }
+  .detail-page .swiper-slide img {
+    height: 200px;
+    width: 290px;
+  }
+  .detail-page .details h2 {
+    font-size: 16px;
+  }
+  .detail-page .section-title {
+    font-size: 12px;
+  }
+  .detail-page .car-detail {
+    gap: 20px;
+  }
+}
+@media (max-width: 499.98px) {
+  .term-condition .heading h1,
+  .privacy-policy .heading h1,
+  .service-container .heading h1,
+  .about-page .heading h1,
+  .contact-page .heading h1,
+  .cars-page .heading h1,
+  .banner .textAndImage .heading-text h1 {
+    font-size: 20px;
+  }
+  .term-condition .heading p,
+  .privacy-policy .heading p,
+  .service-container .heading,
+  .about-cta p,
+  .about-page .heading p,
+  .contact-page .heading p,
+  .cars-page .heading p,
+  .banner .textAndImage .heading-text p {
+    font-size: 12px;
+    line-height: 1.3;
+  }
+  .banner .textAndImage .banner-image img {
+    max-width: 260px;
+  }
+  .trust-section {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 10px;
+  }
+  .trust-box i {
+    font-size: 20px;
+  }
+  .trust-box h4 {
+    font-size: 14px;
+  }
+  .explore-our-fleet-section .heading,
+  .choose-your-ride .heading {
+    margin: 10px 0;
+  }
+  .about-cta h2,
+  .about-content .heading h2,
+  .rent-car-form .heading h2,
+  .experience-on-road .heading h2,
+  .explore-our-fleet-section .heading h2,
+  .choose-your-ride .heading h2 {
+    font-size: 18px;
+  }
+  .detail-page,
+  .services-section .steps ul,
+  .services-section .short-rules ul,
+  .term-condition,
+  .privacy-policy,
+  .service-container,
+  .about-page,
+  .contact-page,
+  .faq-section,
+  .rent-form-container .rent-car-form,
+  .custom-container,
+  .faq-section,
+  .rent-form-container .rent-car-form,
+  .custom-container {
+    max-width: 380px;
+  }
+  .explore-our-fleet-section .car-box img {
+    max-width: 150px;
+    max-height: 140px;
+  }
+  .explore-our-fleet-section .car-boxes .car-box {
+    min-height: 180px;
+  }
+  .explore-our-fleet-section .car-boxes .car-box .car-name,
+  .rent-car-form .heading p,
+  .experience-on-road .heading p,
+  .explore-our-fleet-section .heading p,
+  .choose-your-ride .heading p {
+    font-size: 12px;
+  }
+  #rentForm .form-input-field {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .rent-form-container .rent-car-form {
+    padding: 0 20px;
+  }
+  .rent-form-container #rentForm {
+    width: 100%;
+  }
+  #rentForm button,
+  #rentForm .form-group textarea,
+  #rentForm .form-group select,
+  #rentForm .form-group input,
+  #rentForm button,
+  #rentForm label,
+  .faq-section .custom-accordion-body,
+  .faq-section .custom-accordion-btn,
+  .faq-section .heading p,
+  .details .get-a-quote,
+  header .get-a-quote {
+    font-size: 12px;
+  }
+  .faq-section .heading h2 {
+    font-size: 50px;
+  }
+  .faq-section {
+    margin: 10px auto 20px auto;
+  }
+  .faq-section .custom-accordion-body,
+  .faq-section .custom-accordion-btn {
+    padding: 8px;
+  }
+  .faq-section .heading {
+    margin-bottom: 20px;
+  }
+  footer .footer-col h3 {
+    font-size: 14px;
+  }
+  footer .footer-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  footer .social-icons {
+    font-size: 18px;
+    column-gap: 24px;
+  }
+  footer.site-footer {
+    padding: 20px 0 10px 0;
+  }
+  footer .footer-logo {
+    margin-top: 0;
+  }
+  header .logo img {
+    max-width: 120px;
+    top: 2px;
+  }
+  footer .footer-bottom {
+    margin-top: 20px;
+    font-size: 10px;
+  }
+  .banner .textAndImage {
+    padding: 60px 40px 20px 40px;
+  }
+  #quoteModal #rentForm .form-input-field {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #quoteModal .modal-logo img {
+    max-width: 120px;
+  }
+  #quoteModal .modal-dialog .modal-header button {
+    background-size: 12px;
+  }
+  #rentForm .form-group select {
+    height: 34px;
+  }
+  .cars-page .cars-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .cars-page .search-input input,
+  .cars-search span {
+    padding: 6px 12px;
+    font-size: 16px;
+  }
+  .cars-page .search-input {
+    margin-bottom: 12px;
+  }
+  .service-page-cta .cta-btn,
+  .about-page .cta-btn,
+  .cars-page .load-more button {
+    padding: 5px 10px;
+  }
+  .services-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 8px;
+  }
+  .service-card i {
+    font-size: 22px;
+  }
+  .short-rules .srvice-car-image img,
+  .steps .srvice-car-image img {
+    max-width: 230px;
+  }
+  .about-page .faq-section {
+    margin: 20px auto 20px auto;
+  }
+  .about-page .about-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about-page .about-cta {
+    margin-top: 30px;
+  }
+  .about-page .cta-btn {
+    margin-top: 12px;
+  }
+  .contact-page .contact-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 12px;
+  }
+  .contact-form #rentForm .form-group select {
+    height: 36px;
+  }
+  .term-condition .content h2,
+  .privacy-policy .content h2 {
+    font-size: 14px;
+  }
+  .detail-page .swiper-slide img {
+    height: 190px;
+    width: 260px;
+  }
+}
+@media (max-width: 399.98px) {
+  header .menu-toggle {
+    font-size: 18px;
+  }
+  header {
+    padding: 6px 8px;
+  }
+  .banner .textAndImage {
+    padding: 70px 20px 20px 20px;
+  }
+  .term-condition .heading h1,
+  .privacy-policy .heading h1,
+  .service-container .heading h1,
+  .about-page .heading h1,
+  .contact-page .heading h1,
+  .cars-page .heading h1,
+  .banner .textAndImage .heading-text h1 {
+    font-size: 18px;
+  }
+  .banner .textAndImage .banner-image img {
+    max-width: 220px;
+  }
+  .about-cta h2,
+  .about-content .heading h2,
+  .rent-car-form .heading h2,
+  .experience-on-road .heading h2,
+  .explore-our-fleet-section .heading h2,
+  .choose-your-ride .heading h2 {
+    font-size: 16px;
+  }
+  .cars-page .car-card .car-name,
+  .choose-your-ride .swiper-slide .car-name {
+    font-size: 12px;
+  }
+  .detail-page,
+  .services-section .steps ul,
+  .services-section .short-rules ul,
+  .term-condition,
+  .privacy-policy,
+  .service-container,
+  .about-page,
+  .contact-page,
+  .faq-section,
+  .rent-form-container .rent-car-form,
+  .custom-container,
+  .faq-section,
+  .rent-form-container .rent-car-form,
+  .custom-container {
+    max-width: 300px;
+  }
+  .explore-our-fleet-section .car-boxes {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .experience-on-road .car-image img {
+    width: 220px;
+  }
+  .choose-your-ride {
+    margin-bottom: 10px;
+  }
+  .rent-form-container .rent-car-form {
+    padding: 0 10px;
+  }
+  footer .footer-form input,
+  footer .footer-form button,
+  footer .footer-col ul li a,
+  footer .footer-desc,
+  footer .footer-form input::placeholder {
+    font-size: 12px;
+  }
+  footer .footer-form input,
+  footer .footer-form button {
+    padding: 6px 8px;
+  }
+  .service-page-cta .cta-btn,
+  .about-page .cta-btn,
+  .cars-page .load-more button {
+    padding: 4px 8px;
+    font-size: 10px;
+  }
+  .service-page-cta .cta-btn,
+  .cars-page .load-more {
+    margin-top: 16px;
+  }
+  .services-section .steps h2,
+  .services-section .short-rules h2 {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  .short-rules .srvice-car-image img,
+  .steps .srvice-car-image img {
+    max-width: 200px;
+  }
+  .service-page-cta {
+    margin: 8px 0 24px 0;
+  }
+  .contact-page .contact-box i,
+  .about-page .about-box i {
+    font-size: 22px;
+    margin-bottom: 4px;
+  }
+  .contact-page .contact-box,
+  .about-page .about-box {
+    padding: 12px;
+  }
+  .contact-form #rentForm {
+    padding: 16px;
+  }
+  .detail-page .details h2 {
+    font-size: 14px;
+    margin: 0 0px 6px 0;
+  }
+  .detail-page .car-meta {
+    font-size: 9px;
+  }
+  .detail-page .price {
+    font-size: 13px;
+  }
+}
